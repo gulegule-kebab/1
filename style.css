@@ -146,7 +146,12 @@ h3{color:black;font-weight:bolder;font-size: 115%%;float: left;font-family: mono
 .p4{ position: absolute;color:black;font-weight: bolder;font-size: 130%;font-family: monospace;text-align-last: center;}
 .p5{ position: absolute;left:80%;color:white;font-weight: bolder;font-size: 100%;font-family: monospace;border-style:groove;background-color:red;border-color:red;border-radius: 10%;}
 .special{color:black;font-weight: bolder;font-size: 60%;font-family: monospace;}
-.special2{color:black;font-weight: bolder;font-size: 60%;font-family: monospace;}
+.special2 {
+    color: black;
+    font-weight: bolder;
+    font-size: 57%;
+    font-family: monospace;
+}
 .special3{color:black;font-weight: bolder;font-size: 75%;font-family: monospace;}
 
 
@@ -385,12 +390,12 @@ h2 {
         font-size: 140%;
         font-family: monospace;
     }
-.special2 {
-    color: black;
-    font-weight: bolder;
-    font-size: 80%;
-    font-family: monospace;
-}
+    .special2 {
+        color: black;
+        font-weight: bolder;
+        font-size: 75%;
+        font-family: monospace;
+    }
     p3 {
         color: black;
         font-weight: bolder;
@@ -438,6 +443,12 @@ h3 {
     border-color: red;
 
 
+    font-family: monospace;
+}
+.special3 {
+    color: black;
+    font-weight: bolder;
+    font-size: 70%;
     font-family: monospace;
 }
 @media only screen and (min-device-width: 412px) {
@@ -646,13 +657,13 @@ h3 {
 .special {
     color: black;
     font-weight: bolder;
-    font-size: 70%;
+    font-size: 62%;
     font-family: monospace;
 }
 .special2 {
     color: black;
     font-weight: bolder;
-    font-size: 65%;
+    font-size: 60%;
     font-family: monospace;
 }
 .p5 {

@@ -12,7 +12,9 @@ body{margin:0px;padding:0px;border:0px;background-color:green}
           #btnleft2{ position: absolute;width: 10%;z-index: 4;bottom:70px;display:none;left:10%;opacity:100%}
           #btnleft3{ position: absolute;width: 10%;z-index: 4;bottom:70px;display:none;left:10%;opacity:100%}
 
+
           #btnleft{ position: absolute;width: 10%;z-index: 4;bottom:70px;display:none;left:10%;opacity:100%}
+          #whatsapp2{bottom:2%;position: absolute;width: 13%;z-index: 4;bottom:25px;display:none;left:44%;opacity:100%}
 #whatsapp{bottom:2%;position: absolute;width: 18%;z-index: 4;bottom:25px;display:inline-block;left:44%;opacity:100%}
 #maps{position: absolute;width: 10%;z-index: 4;bottom:17%;display:inline-block;left:45%;opacity:100%}
 .white{background-color:white;width:102.5%;position: absolute;bottom:5%;z-index: 0;display: inline-block;left:-1.5%;height:10%;opacity: 100%}
@@ -277,6 +279,35 @@ h3{color:black;font-weight:bolder;font-size: 115%%;float: left;font-family: mono
       0%,100% { opacity: 1;width:18%;bottom:2%}
       50% { opacity: 1;width:15%;left: 44%;bottom:2%}
     }
+    #whatsapp2 {transition: width 0.5s, height 1s, transform 1s;
+          animation-name: whatsapptab,whatsapptab2,whatsapptab3;
+          animation-duration: 0.5s,1s,2s;
+          animation-fill-mode: forwards;
+          animation-delay: 1.5s,2.9s,3.5s;
+          animation-iteration-count: 1,1,infinite;
+          opacity: 0;
+
+        }
+        @keyframes whatsapptab {
+         from {
+           opacity: 0;
+           transform: translate3d(0, 90%,0);bottom:2%;
+         }
+         to {
+           bottom:2%;
+           opacity: 1;
+           transform:none;
+         }
+      }
+      @keyframes whatsapptab2 {
+          0%,{ transform:rotate(0deg);bottom:2%}
+          100% { transform: rotate(360deg);bottom:2%}
+        }
+
+      @keyframes whatsapptab3 {
+          0%,100% { opacity: 1;width:13%;bottom:2%}
+          50% { opacity: 1;width:15%;left: 44%;bottom:2%}
+        }
 
 
 #menu,#kebabtext,#pizzastext,#ensatext,#gondotext,#camperostext,#pantext,#bebidastext{transition: width 0.5s, height 1s, transform 1s;
@@ -698,4 +729,337 @@ h3 {
     left: 65%;
     opacity: 100%;
 }
+}
+@media only screen and (min-device-width: 768px) {
+  #kebab {
+      border-radius: 10px;
+      border-width: 5px;
+      border-style: solid;
+
+      color: black;
+      border-left: none;
+      font-weight: bolder;
+      border-color: white;
+      border-right: none;
+      font-size: 240%;
+      margin-bottom: 20%;
+      transition: 0.5s;
+  }
+  #pizza {
+      border-radius: 10px;
+      border-width: 5px;
+      border-style: solid;
+
+      color: black;
+      border-left: none;
+      font-weight: bolder;
+      border-color: white;
+      border-right: none;
+      font-size: 240%;
+      margin-bottom: 20%;
+      transition: 0.5s;
+  }
+  #gondo {
+      border-radius: 10px;
+      border-width: 5px;
+      border-style: solid;
+
+      color: black;
+      border-left: none;
+      font-weight: bolder;
+      border-color: white;
+      border-right: none;
+      font-size: 240%;
+      margin-bottom: 20%;
+      transition: 0.5s;
+  }
+  #ensa {
+      border-radius: 10px;
+      border-width: 5px;
+      border-style: solid;
+
+      color: black;
+      border-left: none;
+      font-weight: bolder;
+      border-color: white;
+      border-right: none;
+      font-size: 240%;
+      margin-bottom: 20%;
+      transition: 0.5s;
+  }
+  #camperos {
+      border-radius: 10px;
+      border-width: 5px;
+      border-style: solid;
+
+      color: black;
+      border-left: none;
+      font-weight: bolder;
+      border-color: white;
+      border-right: none;
+      font-size: 240%;
+      margin-bottom: 20%;
+      transition: 0.5s;
+  }
+  #pan {
+      border-radius: 10px;
+      border-width: 5px;
+      border-style: solid;
+
+      color: black;
+      border-left: none;
+      font-weight: bolder;
+      border-color: white;
+      border-right: none;
+      font-size: 240%;
+      margin-bottom: 20%;
+      transition: 0.5s;
+  }
+  #bebidas {
+      border-radius: 10px;
+      border-width: 5px;
+      border-style: solid;
+
+      color: black;
+      border-left: none;
+      font-weight: bolder;
+      border-color: white;
+      border-right: none;
+      font-size: 240%;
+      margin-bottom: 20%;
+      transition: 0.5s;
+  }
+  #menu {
+    position: absolute;
+
+    background-color: none;
+    height: 70%;
+    width: 50%;
+    border-color: black;
+    border-style: none;
+    z-index: 4;
+    top: 30%;
+    display: inline-block;
+    text-align: center;
+    line-height: 1%;
+    left: 25%;
+    font-family: monospace;
+}
+#tomato {
+    position: absolute;
+    width: 30%;
+    z-index: 2;
+    bottom: 30%;
+
+    left: 70%;
+
+}
+#pepper {
+    position: absolute;
+    width: 20%;
+    z-index: 2;
+    bottom: 50%;
+
+    left: -5%;
+
+    transform: rotate(30deg);
+    margin-left: 0px;
+}
+#bread {
+
+    width: 25%;
+    z-index: 2;
+    bottom: 20%;
+
+    left: 0%;
+
+
+}
+#whatsapp {
+    display: none;
+}
+#whatsapp2 {
+  display: inline-block;
+
+}
+
+h2 {
+    color: black;
+    font-weight: bolder;
+    font-size: 250%;
+    float: left;
+    font-family: monospace;
+}
+.p1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 230%;
+    float: right;
+    font-family: monospace;
+    border-style: groove;
+    background-color: red;
+    border-color: red;
+    border-radius: 10%;
+}
+#kebabtext {
+    line-height: 150%;
+    left: 4%;
+    width: 90%;
+    top: 27%;
+    position: absolute;
+    z-index: 3;
+    border-color: red;
+    border-style: hidden;
+    font-family: monospace;
+}
+#kebabfoto {
+    position: absolute;
+    width: 50%;
+    z-index: 2;
+    bottom: 5%;
+
+    left: 50%;
+
+}
+h3 {
+    color: black;
+    font-weight: bolder;
+    font-size: 250%!important;
+    float: left;
+    font-family: monospace;
+}
+h3 {
+    color: black;
+    font-weight: bolder;
+    font-size: 250%!important;
+    float: left;
+    font-family: monospace;
+}
+#pizzastext {
+    height: 100%;
+    line-height: 300%!important;
+    left: 4%;
+    width: 90%;
+    top: 20%;
+    position: absolute;
+    z-index: 3;
+    border-color: red;
+    font-family: monospace;
+}
+#pizzafoto2 {
+    position: absolute;
+    width: 20%;
+    z-index: 4;
+    bottom: 57%;
+    left: 41%;
+}
+
+.p4 {
+    line-height: 120%;
+    text-align-last: center;
+    position: absolute;
+    color: black;
+    font-weight: bolder;
+    font-size: 260%;
+    font-family: monospace;
+}
+
+.p5 {
+    position: absolute;
+    left: 90%;
+    color: white;
+    font-weight: bolder;
+    font-size: 190%;
+    font-family: monospace;
+    border-style: groove;
+    background-color: red;
+    border-color: red;
+}
+
+#gondotext {
+    height: 50%;
+    line-height: 210%;
+    left: 4%;
+    width: 90%;
+    top: 20%;
+    position: absolute;
+    z-index: 3;
+
+    border-color: red;
+    border-style: hidden;
+
+    font-family: monospace;
+}
+
+#gondotext {
+    height: 50%;
+    line-height: 210%;
+    left: 4%;
+    width: 90%;
+    top: 30%;
+
+    z-index: 3;
+    border-color: red;
+
+    font-family: monospace;
+}
+
+#gondolafoto {
+    position: absolute;
+    width: 50%;
+    z-index: 2;
+    bottom: 2%;
+    display: none;
+    left: 50%;
+    opacity: 100%;
+}
+#ensatext {
+    line-height: 200%;
+    left: 4%;
+    width: 90%;
+    top: 25%;
+    position: absolute;
+    z-index: 3;
+
+    border-color: red;
+    border-style: hidden;
+
+    font-family: monospace;
+}
+#camperostext {
+    line-height: 140%;
+    left: 4%;
+    width: 90%;
+    top: 30%;
+    position: absolute;
+    z-index: 3;
+    border-color: red;
+    border-style: hidden;
+    font-family: monospace;
+}
+.special2 {
+    color: black;
+    font-weight: bolder;
+    font-size: 80%;
+    font-family: monospace;
+}
+.special {
+    color: black;
+    font-weight: bolder;
+    font-size: 80%;
+    font-family: monospace;
+}
+#pantext {
+    line-height: 220%;
+    left: 4%;
+    height: 50%;
+    width: 90%;
+    top: 30%;
+    position: absolute;
+    z-index: 3;
+    border-color: red;
+    border-style: hidden;
+    font-family: monospace;
+}
+
 }

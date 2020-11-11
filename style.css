@@ -14,8 +14,8 @@ body{margin:0px;padding:0px;border:0px;background-color:green}
 
 
           #btnleft{ position: absolute;width: 10%;z-index: 4;bottom:70px;display:none;left:10%;opacity:100%}
-          #whatsapp2{bottom:2%;position: absolute;width: 13%;z-index: 4;bottom:25px;display:none;left:44%;opacity:100%}
-#whatsapp{bottom:2%;position: absolute;width: 18%;z-index: 4;bottom:25px;display:inline-block;left:44%;opacity:100%}
+          #whatsapp2{bottom:2%;position: absolute;width: 13%;z-index: 5;bottom:25px;display:none;left:44%;opacity:100%}
+#whatsapp{bottom:2%;position: absolute;width: 18%;z-index: 5;bottom:25px;display:inline-block;left:44%;opacity:100%}
 #maps{position: absolute;width: 10%;z-index: 4;bottom:17%;display:inline-block;left:45%;opacity:100%}
 .white{background-color:white;width:102.5%;position: absolute;bottom:5%;z-index: 0;display: inline-block;left:-1.5%;height:10%;opacity: 100%}
 #tomato{position: absolute;width: 40%;z-index: 2;bottom:30%;display:inline-block;left:59%;opacity:100%}

@@ -20,6 +20,8 @@
     <h1 id="camperos2">CAMPEROS</h1>
     <h1 id="pan2">PAN</h1>
     <h1 id="bebidas2">BEBIDAS</h1>
+    <h1 id="desa2">DESAYUNOS</h1>
+
     </div>
 
 <img id="btnleft"src="btnleft.png" alt="">
@@ -129,6 +131,24 @@
           <h2 class="p4">◉ VEGETAL</h2>
           <h2 class="p5">5,60€</h2>
             </div>
+            <div id="bebidastext">
+              <h2 class="p1special2">GRIFO AMSTEL <br>Grande 2€ - Mediana 1,50€ - Pequeña 1,00€</h2>
+              <br><br>
+              <h2 class="p2special">Agua pequeño 1,00€ <br> Agua grande 1.80€<br>  Agua con gas pequeño 1,50€ <br> Refrescos latas 33cl (pepsi ,7up...)  1,50€, <br> Refrescos 2 litros 3,00€, <br> Combinados 4,50€<br>Copa de vino 2,50€ <br> Botella de vino 8,00€ <br> Corona - heiniken - voll damm  2,50€ <br>Cruzcampo - amstel 1,50€ <br> Estrella galicia - alcazar 2€ <br>Sin gluten 2,50€<br> Victoria - dam limon 1,80€ <br> Redbull - energy drink -zumo - cafe  </h2>
+              <img id="beer" src="beers.png" alt="">
+
+
+
+                </div>
+            <div id="desatext">
+              <h2 class="p1special">PAN CASERO -	PITUFO -	VIENA -	PAN TOSTADO</h2>
+              <br>
+              <h2 class="pspecial">ACEITE O MANTEQUILLA <br> ACEITE Y TOMATE <br> MANTEQUILLA Y MERMELADA <br> MIXTO (JAMON YORK Y QUESO) <br> JAMON SERRANO <br> QUESO MANCHEGO <br>CATALANA <br> ATUN <br> TOMATE Y ACEITE <br> BACON CON QUESO Y HUEVO <br> PAVO <br> PATE SABROSO <br> TORTILLA	DE PATATAS  <br> JAMON SERRANO CON HUEVO <br> MIXTO VEGETAL</h2>
+              <img id="desafoto"src="desa.png" alt="">
+              <img id="desa3"src="desa3.png" alt="">
+              <img id="desa4"src="desa4.png" alt="">
+
+                </div>
           <div id="pantext">
             <h2 class="p4">◉ PAN DE PUEBLO </h2>
             <h2 class="p5"> 1,20€</h2><br><br><br>
@@ -140,6 +160,7 @@
             <h2 class="p5"> 1,20€</h2><br><br><br>
             <h2 class="p4">◉ PAN <span class="special2">MOZZARELLA Y ACEITE DE OLIVA</span> </h2>
             <h2 class="p5"> 1,50€</h2>
+
         </div>
         <div id="camperostext">
           <h2 class="p4">◉ MIXTO: jamón queso </h2><br><br><br>
@@ -162,6 +183,8 @@
   <h1 id="camperos">CAMPEROS</h1>
   <h1 id="pan">PAN</h1>
   <h1 id="bebidas">BEBIDAS</h1>
+  <h1 id="desa1">DESAYUNOS</h1>
+
 </div>
 
 
@@ -169,6 +192,16 @@
     <script type="text/javascript">
 
     document.getElementById('btnleft').onclick = function functionName(){
+      document.getElementById('desafoto').style.display="none";
+      document.getElementById('desa3').style.display="none";
+      document.getElementById('desa4').style.display="none";
+      document.getElementById('desatext').style.display="none";
+      document.getElementById('beer').style.display="none";
+      document.getElementById('bebidastext').style.display="none";
+
+
+
+
       document.getElementById('kebabfoto').style.display="none";
       document.getElementById('gondolafoto').style.display="none";
       document.getElementById('panfoto').style.display="none";
@@ -281,6 +314,10 @@ window.open('https://wa.me/346r43064571','name','_blanc')}
 
     }
 
+
+
+
+
       document.getElementById('kebab').onclick = function functionName(){
         document.getElementById('kebabfoto').style.display="inline-block";
          document.getElementById('menufade').style.display="inline-block";
@@ -295,7 +332,9 @@ window.open('https://wa.me/346r43064571','name','_blanc')}
          document.getElementById('tomatofade').style.display="inline-block";
          document.getElementById('kebabtext').style.display="inline-block";
          document.getElementById('btnleft').style.display="inline-block";
-
+         document.getElementById('desa2').style.lineHeight="1%";
+         document.getElementById('desa2').style.borderColor="white";
+         document.getElementById('desa2').style.fontSize="180%";
          document.getElementById('pizza2').style.lineHeight="1%";
          document.getElementById('pizza2').style.borderColor="white";
          document.getElementById('pizza2').style.fontSize="180%";
@@ -323,7 +362,9 @@ window.open('https://wa.me/346r43064571','name','_blanc')}
       }
         document.getElementById('gondo').onclick = function functionName(){
           document.getElementById('gondolafoto').style.display="inline-block";
-
+          document.getElementById('desa2').style.lineHeight="1%";
+          document.getElementById('desa2').style.borderColor="white";
+          document.getElementById('desa2').style.fontSize="180%";
           document.getElementById('menufade').style.display="inline-block";
           document.getElementById('menu').style.display="none";
           document.getElementById('gondo2').style.borderColor="red";
@@ -363,6 +404,9 @@ window.open('https://wa.me/346r43064571','name','_blanc')}
           document.getElementById('btnleft3').style.display="none";
       }
       document.getElementById('pizza').onclick = function functionName(){
+        document.getElementById('desa2').style.lineHeight="1%";
+        document.getElementById('desa2').style.borderColor="white";
+        document.getElementById('desa2').style.fontSize="180%";
         document.getElementById('kebab2').style.lineHeight="1%";
         document.getElementById('kebab2').style.borderColor="white";
         document.getElementById('kebab2').style.fontSize="180%";
@@ -422,6 +466,9 @@ window.open('https://wa.me/346r43064571','name','_blanc')}
 
       }
         document.getElementById('ensa').onclick = function functionName(){
+          document.getElementById('desa2').style.lineHeight="1%";
+          document.getElementById('desa2').style.borderColor="white";
+          document.getElementById('desa2').style.fontSize="180%";
           document.getElementById('menufade').style.display="inline-block";
           document.getElementById('menu').style.display="none";
           document.getElementById('ensa2').style.borderColor="red";
@@ -464,6 +511,9 @@ window.open('https://wa.me/346r43064571','name','_blanc')}
 
         }
         document.getElementById('camperos').onclick = function functionName(){
+          document.getElementById('desa2').style.lineHeight="1%";
+          document.getElementById('desa2').style.borderColor="white";
+          document.getElementById('desa2').style.fontSize="180%";
           document.getElementById('menufade').style.display="inline-block";
           document.getElementById('menu').style.display="none";
           document.getElementById('camperos2').style.borderColor="red";
@@ -506,6 +556,9 @@ window.open('https://wa.me/346r43064571','name','_blanc')}
 
         }
         document.getElementById('pan').onclick = function functionName(){
+          document.getElementById('desa2').style.lineHeight="1%";
+          document.getElementById('desa2').style.borderColor="white";
+          document.getElementById('desa2').style.fontSize="180%";
           document.getElementById('panfoto').style.display="inline-block";
           document.getElementById('menufade').style.display="inline-block";
           document.getElementById('menu').style.display="none";
@@ -550,6 +603,11 @@ window.open('https://wa.me/346r43064571','name','_blanc')}
 
 
                document.getElementById('bebidas').onclick = function functionName(){
+                 document.getElementById('bebidastext').style.display="inline-block";
+                 document.getElementById('beer').style.display="inline-block";
+                 document.getElementById('desa2').style.lineHeight="1%";
+                 document.getElementById('desa2').style.borderColor="white";
+                 document.getElementById('desa2').style.fontSize="180%";
               document.getElementById('menufade').style.display="inline-block";
               document.getElementById('menu').style.display="none";
               document.getElementById('bebidas2').style.borderColor="red";
@@ -588,7 +646,52 @@ window.open('https://wa.me/346r43064571','name','_blanc')}
               document.getElementById('btnleft3').style.display="none";
 
             }
+            document.getElementById('desa1').onclick = function functionName(){
+              document.getElementById('desafoto').style.display="inline-block";
+              document.getElementById('desa3').style.display="inline-block";
+              document.getElementById('desa4').style.display="inline-block";
 
+               document.getElementById('menufade').style.display="inline-block";
+               document.getElementById('menu').style.display="none";
+               document.getElementById('desa2').style.borderColor="red";
+               document.getElementById('desa2').style.lineHeight="100%";
+
+               document.getElementById('desa2').style.fontSize="250%";
+               document.getElementById('fotos').style.display="none";
+               document.getElementById('pepperfade').style.display="inline-block";
+               document.getElementById('breadfade').style.display="inline-block";
+               document.getElementById('tomatofade').style.display="inline-block";
+               document.getElementById('desatext').style.display="inline-block";
+               document.getElementById('btnleft').style.display="inline-block";
+
+               document.getElementById('pizza2').style.lineHeight="1%";
+               document.getElementById('pizza2').style.borderColor="white";
+               document.getElementById('pizza2').style.fontSize="180%";
+               document.getElementById('gondo2').style.lineHeight="1%";
+               document.getElementById('gondo2').style.borderColor="white";
+               document.getElementById('gondo2').style.fontSize="180%";
+               document.getElementById('ensa2').style.lineHeight="1%";
+               document.getElementById('ensa2').style.borderColor="white";
+               document.getElementById('ensa2').style.fontSize="180%";
+               document.getElementById('pan2').style.lineHeight="1%";
+               document.getElementById('pan2').style.borderColor="white";
+               document.getElementById('pan2').style.fontSize="180%";
+               document.getElementById('camperos2').style.lineHeight="1%";
+               document.getElementById('camperos2').style.borderColor="white";
+               document.getElementById('camperos2').style.fontSize="180%";
+               document.getElementById('bebidas2').style.lineHeight="1%";
+               document.getElementById('bebidas2').style.borderColor="white";
+               document.getElementById('bebidas2').style.fontSize="180%";
+               document.getElementById('kebab2').style.lineHeight="1%";
+               document.getElementById('kebab2').style.borderColor="white";
+               document.getElementById('kebab2').style.fontSize="180%";
+               document.getElementById('wall2').style.display="none";
+               document.getElementById('wall3').style.display="none";
+               document.getElementById('wall4').style.display="none";
+               document.getElementById('wall5').style.display="none";
+               document.getElementById('btnleft2').style.display="none";
+               document.getElementById('btnleft3').style.display="none";
+}
 
 
     </script>

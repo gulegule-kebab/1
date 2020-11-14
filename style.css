@@ -1,6 +1,6 @@
 
 body{margin:0px;padding:0px;border:0px;background-color:green}
-@media only screen  and (min-device-width:375px) and (max-device-height:667px)  {
+@media only screen  and (min-device-width:375px)   {
   #pizzafoto {
       position: absolute;
       width: 40%;

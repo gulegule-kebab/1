@@ -17,13 +17,18 @@ body{margin:0px;padding:0px;border:0px;background-color:green}
 #whatsapp{bottom:2%;position: absolute;width: 18%;z-index: 5;bottom:25px;display:inline-block;left:44%;opacity:100%}
 #maps{position: absolute;width: 10%;z-index: 4;bottom:17%;display:inline-block;left:45%;opacity:100%}
 .white{background-color:white;width:102.5%;position: absolute;bottom:5%;z-index: 0;display: inline-block;left:-1.5%;height:10%;opacity: 100%}
-#tomato{position: absolute;width: 40%;z-index: 2;bottom:30%;display:inline-block;left:59%;opacity:100%}
+#tomato{position: absolute;width: 40%;z-index: 2;bottom:30%;display:inline-block;left:60%;opacity:100%}
 #pepper{position: absolute;width: 25%;z-index: 2;bottom:50%;display:inline-block;left:-5%;opacity:100%;transform: rotate(30deg);margin-left: 0px;}
 #bread{position: absolute;width: 35%;z-index: 2;bottom:20%;display:inline-block;left:0%;opacity:100%;;}
 #tomatofade{position: absolute;width: 40%;z-index: 2;bottom:30%;left:79%;}
 #pepperfade{position: absolute;width: 25%;z-index: 2;bottom:55%;left:-15%;transform: rotate(30deg);margin-left: 0px;}
 #breadfade{position: absolute;width: 35%;z-index: 2;bottom:20%;left:-20%;}
 #kebabfoto{position: absolute;width: 50%;z-index: 2;bottom:14%;display:none;left:50%;opacity:100%}
+#desafoto{position: absolute;width: 40%;z-index: 2;bottom:-15%;display:none;left:65%;opacity:100%}
+#desa3{position: absolute;width: 40%;z-index: 2;bottom:30%;display:none;left:65%;opacity:100%}
+#desa4{position: absolute;width: 40%;z-index: 2;bottom:60%;display:none;left:65%;opacity:100%}
+#beer{position: absolute;width: 30%;z-index: 4;bottom:-50%;display:none;left:78%;opacity:100%}
+
 #gondolafoto{position: absolute;width: 50%;z-index: 2;bottom:10%;display:none;left:50%;opacity:100%}
 #panfoto{position: absolute;width: 40%;z-index: 2;bottom:15%;display:none;left:60%;opacity:100%}
 #ensapollo{position: absolute;width: 60%;z-index: 2;bottom:15%;display:none;left:40%;opacity:100%}
@@ -112,28 +117,36 @@ body{margin:0px;padding:0px;border:0px;background-color:green}
        }
     }
 
-#menufade{;position: absolute;border-width: 0.2%;background-color:none;height:70%;width:50%;border-color:black;border-style:none;z-index: 4;top: 90%;display:none;text-align: center;line-height: 1%;left: 25%;font-family:monospace;}
-#menu{;position: absolute;border-width: 0.2%;background-color:none;height:70%;width:50%;border-color:black;border-style:none;z-index: 4;top: 25%;display: inline-block;text-align: center;line-height: 1%;left: 25%;font-family:monospace;}
-#gondo{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 170%;margin-bottom: 25%;transition:0.5s}
-#ensa{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 170%;margin-bottom: 25%;transition:0.5s}
-#pizza{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 170%;margin-bottom: 25%;transition:0.5s}
-#pan{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 170%;margin-bottom: 25%;transition:0.5s}
-#bebidas{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 170%;margin-bottom: 25%;transition:0.5s}
-#kebab{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 170%;margin-bottom: 25%;transition:0.5s}
-#camperos{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 170%;margin-bottom: 25%;transition:0.5s}
+#menufade{;position: absolute;border-width: 0.2%;background-color:none;height:70%;width:50%;border-color:black;border-style:none;z-index: 4;top: 90%;display:none;text-align: center;line-height: -1%;left: 25%;font-family:monospace;}
+#menu{position: absolute;border-width: 0.2%;background-color:none;height:70%;width:50%;border-color:black;border-style:none;z-index: 4;top: 25%;display: inline-block;text-align: center;line-height: 0%;left: 25%;font-family:monospace;}
+#gondo{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 170%;margin-bottom: 22%;transition:0.5s}
+#ensa{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 170%;margin-bottom: 22%;transition:0.5s}
+#pizza{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 170%;margin-bottom: 22%;transition:0.5s}
+#pan{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 170%;margin-bottom: 22%;transition:0.5s}
+#bebidas{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 170%;margin-bottom: 22%;transition:0.5s}
+#kebab{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 170%;margin-bottom: 22%;transition:0.5s}
+#camperos{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 170%;margin-bottom: 22%;transition:0.5s}
 #google{ opacity: 100%;position: absolute;width: 35%;z-index:5;display:inline-block;bottom:-7%;left:0%}
 #trip{ opacity: 100%;position: absolute;width: 32%;z-index:5;display:inline-block;bottom:-7%;left:66%}
+#desa1{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 170%;margin-bottom: 20%;transition:0.5s}
 
 #kebab:hover{border-color:red;line-height: 100%}
 #pan:hover{border-color:red;line-height: 100%}
 #pizza:hover{border-color:red;line-height: 100%}
 #bebidas:hover{border-color:red;line-height: 100%}
+#desa1:hover{border-color:red;line-height: 100%}
+
 #camperos:hover{border-color:red;line-height: 100%}
 #ensa:hover{border-color:red;line-height: 100%}
 #gondo:hover{border-color:red;line-height: 100%}
 h2{color:black;font-weight:bolder;font-size: 110%;float: left;font-family: monospace;}
+.p1special{color:white;font-weight: bolder;font-size: 80%;text-align: center;;font-family: monospace;border-style:groove;background-color:red;border-color:red;border-radius: 10%;}
+.p1special2{ line-height:120%;color:white;font-weight: bolder;font-size: 80%;text-align: center;font-family: monospace;border-style:groove;background-color:red;border-color:red;border-radius: 10%; position: relative;left:10%}
+
 .p1{color:white;font-weight: bolder;font-size: 110%;float:right;font-family: monospace;border-style:groove;background-color:red;border-color:red;border-radius: 10%;}
 #kebabtext{line-height: 90%;left: 4%;width:90%;top:20%; position: absolute;z-index: 3;border-width: 10%;border-color:red;border-style: hidden;display: none;font-family: monospace;}
+#bebidastext{height:50%;line-height: 160%;left: 4%;width:90%;top:20%; position: absolute;z-index: 3;border-width: 10%;border-color:red;border-style: hidden;display: none;font-family: monospace;}
+#desatext{height:50%;line-height: 160%;left: 4%;width:90%;top:20%; position: absolute;z-index: 3;border-width: 10%;border-color:red;border-style: hidden;display: none;font-family: monospace;}
 #gondotext{height:50%;line-height: 160%;left: 4%;width:90%;top:20%; position: absolute;z-index: 3;border-width: 10%;border-color:red;border-style: hidden;display: none;font-family: monospace;}
 #pantext{line-height: 120%;left: 4%;height:50%;width:90%;top:25%; position: absolute;z-index: 3;border-width: 10%;border-color:red;border-style: hidden;display: none;font-family: monospace;}
 #camperostext{line-height: 90%;left: 4%;width:90%;top:20%; position: absolute;z-index: 3;border-width: 10%;border-color:red;border-style: hidden;display: none;font-family: monospace;}
@@ -153,18 +166,22 @@ h3{color:black;font-weight:bolder;font-size: 115%%;float: left;font-family: mono
     font-size: 57%;
     font-family: monospace;
 }
+.pspecial{ position: absolute;color:black;font-weight: bolder;font-size: 100%;font-family: monospace;}
+.p2special{ position: absolute;color:black;font-weight: bolder;font-size: 90%;font-family: monospace;}
+
 .special3{color:black;font-weight: bolder;font-size: 75%;font-family: monospace;}
 
 
 
 /* where the stuf fade */
-#gondo2{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 180%;margin-bottom: 30%}
-#ensa2{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 180%;margin-bottom: 30%}
-#pizza2{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 180%;margin-bottom: 30%}
-#pan2{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 180%;margin-bottom: 30%}
-#bebidas2{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 180%;margin-bottom: 30%}
-#kebab2{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 180%;margin-bottom: 30%;}
-#camperos2{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 180%;margin-bottom: 30%;}
+#gondo2{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 180%;margin-bottom: 22%}
+#ensa2{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 180%;margin-bottom: 22%}
+#pizza2{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 180%;margin-bottom: 22%}
+#pan2{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 180%;margin-bottom: 22%}
+#desa2{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 180%;margin-bottom: 22%}
+#bebidas2{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 180%;margin-bottom: 22%}
+#kebab2{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 180%;margin-bottom: 22%;}
+#camperos2{border-radius: 10px;border-width: 5px;border-style: solid;background-color: none;color:black;border-left: none;font-weight: bolder;border-color:white;border-right:none;font-size: 180%;margin-bottom: 22%;}
 #logo{transition: width 0.5s, height 1s, transform 1s;
   animation-name: logo;
   animation-duration: 1s;
@@ -232,7 +249,7 @@ h3{color:black;font-weight:bolder;font-size: 115%%;float: left;font-family: mono
        transform:none;
      }
   }
-  #kebabfoto,#gondolafoto,#panfoto,#ensapollo,#pizzafoto2{transition: width 0.5s, height 1s, transform 1s;
+  #kebabfoto,#gondolafoto,#panfoto,#ensapollo,#pizzafoto2,#desafoto,#desa3,#desa4,#beer{transition: width 0.5s, height 1s, transform 1s;
         animation-name: tomato;
         animation-duration: 2s;
         animation-fill-mode: forwards;
@@ -261,22 +278,22 @@ h3{color:black;font-weight:bolder;font-size: 115%%;float: left;font-family: mono
     @keyframes whatsapp {
      from {
        opacity: 0;
-       transform: translate3d(0, 90%,0);bottom:2%;
+       transform: translate3d(0, 90%,0);bottom:0%;
      }
      to {
-       bottom:2%;
+       bottom:0%;
        opacity: 1;
        transform:none;
      }
   }
   @keyframes whatsapp2 {
-      0%,{ transform:rotate(0deg);bottom:2%}
-      100% { transform: rotate(360deg);bottom:2%}
+      0%,{ transform:rotate(0deg);bottom:0%}
+      100% { transform: rotate(360deg);bottom:0%}
     }
 
   @keyframes whatsapp3 {
-      0%,100% { opacity: 1;width:18%;bottom:2%}
-      50% { opacity: 1;width:15%;left: 44%;bottom:2%}
+      0%,100% { opacity: 1;width:18%;bottom:0%}
+      50% { opacity: 1;width:15%;left: 44%;bottom:0%}
     }
     #whatsapp2 {transition: width 0.5s, height 1s, transform 1s;
           animation-name: whatsapptab,whatsapptab2,whatsapptab3;
@@ -309,7 +326,7 @@ h3{color:black;font-weight:bolder;font-size: 115%%;float: left;font-family: mono
         }
 
 
-#menu,#kebabtext,#pizzastext,#ensatext,#gondotext,#camperostext,#pantext,#bebidastext{transition: width 0.5s, height 1s, transform 1s;
+#menu,#kebabtext,#pizzastext,#ensatext,#gondotext,#camperostext,#pantext,#bebidastext,#desatext{transition: width 0.5s, height 1s, transform 1s;
       animation-name: menu;
       animation-duration: 1s;
       animation-fill-mode:forwards;
